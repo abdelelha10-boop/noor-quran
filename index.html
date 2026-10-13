@@ -1,23 +1,16 @@
-<!doctype html>
-<html lang="nl">
-<head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#0d0d0d"><meta name="description" content="NOOR Quran — lees, luister en oefen de Koran.">
-  <link rel="manifest" href="manifest.json"><link rel="icon" href="icon.svg" type="image/svg+xml">
-  <title>NOOR Quran</title><link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header class="topbar"><div class="brand"><div class="logo">ن</div><div><strong>NOOR <span>QURAN</span></strong><small>Jouw dagelijkse licht</small></div></div><button id="installBtn" class="outline hidden">Installeer app</button></header>
-<main>
-  <section class="hero"><div class="eyebrow">السلام عليكم</div><h1>Lees. Luister. <em>Onthoud.</em></h1><p>Jouw plek om de Koran te lezen en te oefenen.</p><div class="hero-stats"><div><b id="surahCount">114</b><span>soera's</span></div><div><b id="ayahCount">—</b><span>verzen geladen</span></div><div><b id="savedCount">0</b><span>bladwijzers</span></div></div></section>
-  <section class="tools"><label class="search"><span>⌕</span><input id="searchInput" placeholder="Zoek een soera of vers…" autocomplete="off"></label><div class="select-row"><label for="surahSelect">Kies een soera</label><select id="surahSelect"><option value="1">Laden…</option></select></div></section>
-  <section class="surah-heading"><div><div class="eyebrow" id="surahNumber">SOERA 1</div><h2 id="surahName">Al-Fatiha</h2><p id="surahInfo">De Opening</p></div><div class="arabic-title" id="surahArabic">الفاتحة</div></section>
-  <div class="reader-tools"><label class="toggle"><input type="checkbox" id="translationToggle" checked><span>Nederlandse vertaling</span></label><label class="toggle"><input type="checkbox" id="translitToggle"><span>Transliteratie</span></label><button id="bookmarkSurah" class="outline">☆ Bewaar soera</button></div>
-  <div id="status" class="status">Koran laden…</div><section id="verses" class="verses" aria-live="polite"></section>
-  <section class="practice"><div class="practice-icon">♫</div><div class="practice-copy"><h3>Oefen je recitatie</h3><p>Lees een vers hardop. Spraakherkenning hangt af van je browser en microfoon; dit is geen betrouwbare tajweed- of AI-corrector.</p></div><button id="practiceBtn">Start oefenen</button></section>
-  <section id="practicePanel" class="practice-panel hidden"><h3>Recitatie oefenen</h3><p>Kies een vers en tik op de microfoon. Sta microfoontoegang toe wanneer je browser erom vraagt.</p><label for="practiceAyah">Versnummer</label><input id="practiceAyah" type="number" min="1" value="1"><div class="practice-actions"><button id="micBtn">🎙 Start microfoon</button><button id="stopMicBtn" class="outline">Stop</button></div><p id="speechStatus" class="status">Klaar om te oefenen.</p><div id="speechResult" class="speech-result"></div><p class="fineprint">De herkenning kan fouten maken, vooral bij Arabische uitspraak. Gebruik dit alleen als oefenhulp en laat tajweed controleren door een gekwalificeerde leerkracht.</p></section>
-  <section class="saved-section"><div class="section-title"><div><div class="eyebrow">JOUW PLEK</div><h2>Bladwijzers</h2></div><button id="clearSaved" class="text-button">Wis alles</button></div><div id="bookmarks" class="bookmark-list"><p class="muted">Je opgeslagen verzen verschijnen hier.</p></div></section>
-</main>
-<footer><div class="logo small-logo">ن</div><p>NOOR Quran</p><small>Gemaakt om te lezen en te leren. Controleer vertalingen en recitatie bij betrouwbare bronnen.</small></footer>
-<script src="app.js"></script>
-</body></html>
+<section id="noor-reciter">
+  <h2>Luister naar de Koran</h2>
+  <p>Abdul Basit Abdus Samad</p>
+  <p>عبد الباسط عبد الصمد</p>
+
+  <audio id="noor-reciter-audio" controls preload="none">
+    Je browser ondersteunt geen audio.
+  </audio>
+
+  <p>
+    Voorbeeld:
+    <button onclick="playNoorAyah(1, 1)">
+      Speel Al-Fatiha, vers 1
+    </button>
+  </p>
+</section>
