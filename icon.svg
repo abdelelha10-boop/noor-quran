@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><rect width="128" height="128" rx="28" fill="#17170f"/><rect x="4" y="4" width="120" height="120" rx="25" fill="none" stroke="#d9b66b" stroke-width="2"/><text x="64" y="85" text-anchor="middle" font-size="78" fill="#f0d99c" font-family="serif">ن</text></svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="100" fill="#0b0c0b"/>
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#d4af37" stroke-width="8"/>
+  <path d="M256 115 L276 145 L311 151 L286 177 L292 212 L256 195 L220 212 L226 177 L201 151 L236 145 Z" fill="#d4af37"/>
+  <path d="M155 235 Q205 210 256 245 Q307 210 357 235 L357 340 Q307 315 256 350 Q205 315 155 340 Z" fill="#d4af37"/>
+  <path d="M256 245 L256 350" stroke="#0b0c0b" stroke-width="7" fill="none"/>
+  <path d="M174 252 Q211 242 242 261 M174 278 Q211 268 242 287 M174 304 Q211 294 242 313 M338 252 Q301 242 270 261 M338 278 Q301 268 270 287 M338 304 Q301 294 270 313" stroke="#0b0c0b" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <text x="256" y="405" font-family="serif" font-size="49" font-weight="bold" text-anchor="middle" fill="#d4af37">NOOR</text>
+</svg>
